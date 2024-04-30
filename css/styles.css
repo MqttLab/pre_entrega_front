@@ -139,6 +139,18 @@ header nav ul li a:hover{
 }
 /* ================================= */
 @media (max-width: 952px){
+    .parrafo-diseno-web-2{
+        margin: 4%;
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .parrafo-diseno-web{
+        margin: 4%;
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+    }
     .nav-logo img{
         height: 70px;
         width: 70px;
