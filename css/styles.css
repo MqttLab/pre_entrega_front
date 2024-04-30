@@ -13,10 +13,12 @@
 header{
     background-color: rgb(42, 70, 132);
     height: 90px;
+    width: 100%;
     padding-left: 15px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    position: static;
 }
 
 .nav-logo{
@@ -83,6 +85,58 @@ header nav ul li a:hover{
     display: none;
 }
 
+/* ======= BOTON DE WHATSAPP ======= */
+.button-wpp{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    height: 60px;
+    width: 60px;
+    transition: all .3s;
+}
+
+.button-wpp a img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+.button-wpp:hover{
+    transform: scale(1.15);
+}
+/* ================================= */
+/* ======= DISENO WEB ============== */
+.diseno-web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diseno-web img{
+    height: 100%;
+    width: 50%;
+}
+.parrafo-diseno-web{
+    color: rgb(43, 43, 116);
+    font-size: 100px;
+    text-align: center;
+}
+/* ================================= */
+/* ======= DISENO WEB ============== */
+.diseno-web-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 43, 116);;
+}
+.diseno-web-2 img{
+    height: 100%;
+    width: 50%;
+}
+.parrafo-diseno-web-2{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+/* ================================= */
 @media (max-width: 952px){
     .nav-logo img{
         height: 70px;
@@ -99,7 +153,9 @@ header nav ul li a:hover{
 }
 
 @media (max-width: 858px){
-    .nav-logo{
+    .parrafo-diseno-web{
+        color: rgb(43, 43, 116);
+        font-size: 1.7rem;
     }
     .checkbtn{
         display: block;
