@@ -1,1 +1,1 @@
-Sitio web diseñado para poder implementar en una optica.
+Sitio web diseñado para poder ofrecer servicios de desarrollo/IT.
