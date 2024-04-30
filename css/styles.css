@@ -90,8 +90,8 @@ header nav ul li a:hover{
     position: fixed;
     right: 2%;
     bottom: 2%;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     transition: all .3s;
 }
 
@@ -120,7 +120,7 @@ header nav ul li a:hover{
     text-align: center;
 }
 /* ================================= */
-/* ======= DISENO WEB ============== */
+/* ======= DISENO WEB 2 ============ */
 .diseno-web-2{
     display: flex;
     align-items: center;
@@ -132,6 +132,7 @@ header nav ul li a:hover{
     width: 50%;
 }
 .parrafo-diseno-web-2{
+    margin: 4%;
     color: white;
     font-size: 100px;
     text-align: center;
@@ -153,9 +154,39 @@ header nav ul li a:hover{
 }
 
 @media (max-width: 858px){
+    .diseno-web{
+        padding-top: 4%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .diseno-web img{
+        height: 100%;
+        width: 100vw;
+    }
     .parrafo-diseno-web{
-        color: rgb(43, 43, 116);
-        font-size: 1.7rem;
+        margin: 4%;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .diseno-web-2{
+        padding-top: 4%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .diseno-web-2 img{
+        height: 100%;
+        width: 100vw;
+    }
+    .parrafo-diseno-web-2{
+        margin: 4%;
+        font-weight: bold;
+        color: white;
+        font-size: 2.5rem;
+        text-align: center;
     }
     .checkbtn{
         display: block;
