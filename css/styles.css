@@ -72,7 +72,7 @@ nav ul li a{
 }
 
 .checkbtn{
-    background-color: aqua;
+    /*background-color: aqua;*/
     font-size: 30px;
     color: white;
     float: right;
@@ -203,7 +203,7 @@ header nav ul li a:hover{
 @media (max-width: 858px){
     /* HEADER */
     header{
-        background-color: burlywood;
+        
         height: 55px;
         /*position: fixed;*/
     }
