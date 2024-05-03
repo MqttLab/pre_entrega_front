@@ -63,7 +63,8 @@ nav ul li a{
 }
 
 .nav-logo:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
+    cursor:pointer;
 }
 
 .active1:hover{
@@ -71,10 +72,11 @@ nav ul li a{
 }
 
 .checkbtn{
+    background-color: aqua;
     font-size: 30px;
     color: white;
     float: right;
-    line-height: 80px;
+    line-height: 140px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -201,6 +203,7 @@ header nav ul li a:hover{
 @media (max-width: 858px){
     /* HEADER */
     header{
+        background-color: burlywood;
         height: 55px;
         /*position: fixed;*/
     }
