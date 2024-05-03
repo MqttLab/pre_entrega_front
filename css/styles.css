@@ -11,7 +11,7 @@
 }
 
 header{
-    background-color: #2f2986;
+    background-color: white;
     height: 90px;
     width: 100%;
     padding-left: 15px;
@@ -22,21 +22,24 @@ header{
 }
 
 .nav-logo{
+    margin-left: 2%;
     display: flex;
     height: 80px;
-    width: 300px;
+    width: 600px;
     align-items: center;
     transition: all .5s;
 }
 
 .nav-logo img{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 
 .nav-logo h2{
-    padding-left: 5%;
-    color: white;
+    padding-left: 2%;
+    font-size: 30px;
+    color: rgb(81, 21, 82);
+    /*color: rgb(43, 43, 116);*/
     font-weight: bold;
 }
 
@@ -53,8 +56,8 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
-    font-size: 16px;
+    color: rgb(81, 21, 82);
+    font-size: 18px;
     font-weight: bold;
     transition: all .5s;
 }
@@ -85,6 +88,12 @@ header nav ul li a:hover{
     display: none;
 }
 
+/* ======= OBJETIVO PAGINA ========= */
+.obj-pagina{
+    background-color: rgb(43, 43, 116);
+    height: 100vh;
+}
+/* ================================= */
 /* ======= BOTON DE WHATSAPP ======= */
 .button-wpp{
     position: fixed;
@@ -104,18 +113,40 @@ header nav ul li a:hover{
     transform: scale(1.15);
 }
 /* ================================= */
-/* ======= DISENO WEB ============== */
-.diseno-web{
+/* ======= INTRO EMPRESA =========== */
+.intro-empresa{
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+}
+.intro-empresa img{
+    height: 100%;
+    width: 50%;
+    pointer-events: none;
+}
+.parrafo-intro-empresa{
+    margin: 4%;
+    color: rgb(81, 21, 82);
+    font-size: 80px;
+    text-align: center;
+}
+/* ================================= */
+/* ======= DISENO WEB ============== */
+.diseno-web{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 21, 82);
 }
 .diseno-web img{
     height: 100%;
     width: 50%;
 }
 .parrafo-diseno-web{
-    color: rgb(43, 43, 116);
+    color: white;
     font-size: 100px;
     text-align: center;
 }
@@ -125,28 +156,19 @@ header nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(43, 43, 116);;
+    background-color: white;
 }
 .diseno-web-2 img{
     height: 100%;
     width: 50%;
+    pointer-events: none;
 }
 .parrafo-diseno-web-2{
     margin: 4%;
-    color: white;
+    color: rgb(81, 21, 82);
     font-size: 100px;
     text-align: center;
 }
-/* ================================= */
-/* ======= Imagen notebook ========= */
-/*.image-inicio{
-    text-align: center;
-    background-color: red;
-    height: 700px;
-}
-.image-inicio img{
-    height: 100%;
-}*/
 /* ================================= */
 @media (max-width: 1052px){
     .parrafo-diseno-web{
@@ -158,7 +180,7 @@ header nav ul li a:hover{
     .parrafo-diseno-web-2{
         width: 50%;
         font-weight: bold;
-        color: white;
+        color: rgb(81, 21, 82);;
         font-size: 3.5rem;
         text-align: center;
     }
@@ -167,7 +189,7 @@ header nav ul li a:hover{
         width: 70px;
     }
     .nav-logo h2{
-        color: white;
+        color: rgb(81, 21, 82);;
         font-weight: bold;
         font-size: 20px;
     }
@@ -180,6 +202,7 @@ header nav ul li a:hover{
     /* HEADER */
     header{
         height: 55px;
+        /*position: fixed;*/
     }
     
     .nav-logo{
@@ -191,8 +214,28 @@ header nav ul li a:hover{
         height: 40px;
         width: 40px;
     }
-    
+    .intro-empresa{
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .intro-empresa img{
+        height: 100%;
+        width: 80vw;
+    }
+    .parrafo-intro-empresa{
+        margin: 0;
+        width: 100%;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+    }
     .diseno-web{
+        height: auto;
         padding-top: 4%;
         text-align: center;
         display: flex;
@@ -211,6 +254,7 @@ header nav ul li a:hover{
         text-align: center;
     }
     .diseno-web-2{
+        height: auto;
         padding-top: 4%;
         text-align: center;
         display: flex;
@@ -224,7 +268,6 @@ header nav ul li a:hover{
         width: 80%;
         margin: 4%;
         font-weight: bold;
-        color: white;
         font-size: 2.5rem;
         text-align: center;
     }
@@ -232,7 +275,7 @@ header nav ul li a:hover{
         display: block;
     }
     ul{
-        background-color: #2f2986;
+        background-color: rgb(81, 21, 82);
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -246,7 +289,7 @@ header nav ul li a:hover{
         margin: -1px 0;
         height: 90px;
         border-style: solid;
-        border-color: #403b8f;
+        border-color: white;
         display: block;
         line-height: 30px;
     }
